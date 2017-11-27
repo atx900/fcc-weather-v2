@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/weather.css">
+    <title>Local Weather</title>
+  </head>
+  <body class="container-fluid">
+    <div class="row">
+      <div class="container text-center">
+        <h1>Local Weather Forecast</h1>
+      </div>
+    </div>
+    <div class="row">
+      <p></p>
+    </div>
+    <!-- Display Weather Data -->
+
+    <div class="row">
+      <div class="container weather-box">
+
+      </div>
+    </div>
+
+    <!-- Temperature Control Buttons  -->
+
+    <div class="row">
+      <div class="container text-center button-space">
+        <p>
+          <span><button class="btn btn-default" id="getCelsius" name="button">Celsius</button></span>
+          <span><button class="btn btn-default" id="getFarenheit" name="button">Farenheit</button></span>
+        </p>
+      </div>
+    </div>
+    <script src="scripts/weatherv3.js" charset="utf-8"></script>
+  </body>
+</html>
